@@ -67,8 +67,8 @@ export default function NavSidebar() {
         )}
         {collapsed && (
           <Link href="/" className="flex items-center justify-center w-full">
-            <div className="w-8 h-8 bg-primary rounded flex items-center justify-center">
-              <ALargeSmall className="w-5 h-5 text-primary-foreground" />
+            <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
+              <Image src="/circles.svg" alt="Relay Logo" width={32} height={32} className="w-full h-full dark:invert" />
             </div>
           </Link>
         )}
