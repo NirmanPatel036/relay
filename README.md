@@ -497,18 +497,10 @@ vercel --prod
 
 ## 📝 License
 
-This project is built for educational purposes as part of Semester 06 coursework at Mahindra University.
+This project is built for educational purposes as part of a technical assessment round by a startup.
 
 ---
 
-## 👨‍💻 Author
-
-**Nirman Patel**
-- University: Mahindra University
-- Semester: 06
-- Course: Web Development & AI Systems
-
----
 
 ## 🙏 Acknowledgments
 
