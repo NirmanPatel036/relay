@@ -328,10 +328,27 @@ export default function Home() {
             <span className="font-mono font-bold text-lg tracking-tighter text-foreground uppercase">RELAY SYSTEMS</span>
           </div>
           <div className="flex space-x-12 font-mono text-[10px] tracking-widest text-muted-foreground">
-            <a className="hover:text-primary" href="#">GITHUB</a>
-            <a className="hover:text-primary" href="#">TWITTER</a>
-            <a className="hover:text-primary" href="#">STATUS</a>
-            <a className="hover:text-primary" href="#">PRIVACY</a>
+            <a className="hover:text-primary"
+               href="https://github.com/NirmanPatel036"
+               target="_blank"
+               rel="noopener noreferrer"
+              >
+               GITHUB
+            </a>
+            <a className="hover:text-primary"
+               href="https://x.com/nirman_patel_09?s=21"
+               target="_blank"
+               rel="noopener noreferrer"
+              >
+               TWITTER
+            </a>
+            <a className="hover:text-primary"
+               href="https://linkedin.com/in/nirmanpatel"
+               target="_blank"
+               rel="noopener noreferrer"
+              >
+               LINKEDIN
+            </a>
           </div>
           <div className="mt-8 md:mt-0 text-[10px] font-mono text-muted-foreground">
             BUILT WITH ❤️ FOR MODERN CUSTOMER SUPPORT
