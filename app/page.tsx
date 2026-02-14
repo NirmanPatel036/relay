@@ -60,6 +60,7 @@ export default function Home() {
             <motion.a whileHover={{ y: -2 }} href="#tech" className="hover:text-primary transition-colors">TECH</motion.a>
             <motion.a whileHover={{ y: -2 }} href="#features" className="hover:text-primary transition-colors">FEATURES</motion.a>
             <motion.a whileHover={{ y: -2 }} href="#architecture" className="hover:text-primary transition-colors">ARCHITECTURE</motion.a>
+            <motion.a whileHover={{ y: -2 }} href="#contact" className="hover:text-primary transition-colors">CONTACT</motion.a>
           </div>
           <div className="flex items-center gap-4">
             <ThemeToggle />
@@ -319,7 +320,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-card py-12 px-6 border-t border-border">
+      <footer id="contact" className="bg-card py-12 px-6 border-t border-border">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center space-x-2 mb-8 md:mb-0">
             <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center p-1">
