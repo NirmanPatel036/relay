@@ -1,31 +1,22 @@
-# 🎯 RELAY: Multi-Agent Customer Support Platform
+# RELAY: Multi-Agent Customer Support Platform
 
 > Modern multi-agent AI customer support system with intelligent query routing and specialized domain handlers
 
-## 📊 Tech Stack
+## Tech Stack
 
-### Frontend
 ![Next.js](https://img.shields.io/badge/Next.js-16.1.6-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![React](https://img.shields.io/badge/React-19.2.3-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.3.3-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Framer Motion](https://img.shields.io/badge/Framer_Motion-11.0.3-FF0055?style=for-the-badge&logo=framer&logoColor=white)
-
-### Backend
 ![Hono](https://img.shields.io/badge/Hono-4.0.0-FF6600?style=for-the-badge&logo=hono&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-20.11-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.3.3-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-5.8.1-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
-
-### Database & Auth
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15+-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-2.39.3-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-
-### AI & ML
 ![Google Gemini](https://img.shields.io/badge/Google_Gemini_2.5-Flash-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![Vercel AI SDK](https://img.shields.io/badge/Vercel_AI_SDK-3.0.0-000000?style=for-the-badge&logo=vercel&logoColor=white)
-
-### UI Components
 ![Radix UI](https://img.shields.io/badge/Radix_UI-Latest-8B5CF6?style=for-the-badge&logo=radixui&logoColor=white)
 ![Shadcn UI](https://img.shields.io/badge/Shadcn_UI-Latest-000000?style=for-the-badge&logo=shadcnui&logoColor=white)
 ![Lucide Icons](https://img.shields.io/badge/Lucide_Icons-0.544.0-F56565?style=for-the-badge&logo=lucide&logoColor=white)
