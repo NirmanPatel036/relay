@@ -462,7 +462,7 @@ npm run dev
 
 ### Frontend (Vercel)
 ```bash
-cd clone-relay-chat
+cd relay
 vercel --prod
 ```
 
