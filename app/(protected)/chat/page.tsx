@@ -96,6 +96,8 @@ function TypewriterText({ text, onComplete }: { text: string; onComplete?: () =>
   return <>{formatContent(displayedText)}</>
 }
 
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001/api'
+
 export default function Chat() {
   const [messages, setMessages] = useState<Message[]>([])
   const [inputValue, setInputValue] = useState('')
@@ -131,7 +133,7 @@ export default function Chat() {
   const checkSampleData = async (uid: string) => {
     try {
       // Check if orders exist
-      const ordersResponse = await fetch('https://relay-backend-unc8.onrender.com/api/user/check-sample-data', {
+      const ordersResponse = await fetch(`${API_BASE_URL}/user/check-sample-data`, {
         headers: {
           'x-user-id': uid,
         },
@@ -157,7 +159,7 @@ export default function Chat() {
 
     setIsPopulatingData(true)
     try {
-      const response = await fetch('https://relay-backend-unc8.onrender.com//api/user/populate-sample-data', {
+      const response = await fetch(`${API_BASE_URL}/user/populate-sample-data`, {
         method: 'POST',
         headers: {
           'x-user-id': userId,
@@ -172,7 +174,7 @@ export default function Chat() {
         const successMessage: Message = {
           id: Date.now().toString(),
           role: 'system',
-          content: `✅ Sample data populated successfully! You now have 15 orders and 12 invoices. Try asking:\n\n• "Where is my order #8829?"\n• "Show me invoice INV-2024-001"\n• "Track order #7742"`,
+          content: `✅ Sample data populated successfully! You now have 3 orders and 3 invoices. Try asking:\n\n• "Where is my order #8829?"\n• "Show me invoice INV-2024-001"\n• "Track order #7742"`,
           timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
         }
         setMessages(prev => [...prev, successMessage])
