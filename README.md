@@ -331,7 +331,7 @@ customer-care/
 ### Frontend Setup
 
 ```bash
-cd clone-relay-chat
+cd relay
 npm install
 ```
 
