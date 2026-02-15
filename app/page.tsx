@@ -74,7 +74,7 @@ export default function Home() {
                   </Link>
                 </motion.div>
                 <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                  <Link href="/chat" className="bg-primary text-primary-foreground px-5 py-2 rounded-lg font-bold text-sm hover:brightness-110 transition-all">
+                  <Link href="/signup" className="bg-primary text-primary-foreground px-5 py-2 rounded-lg font-bold text-sm hover:brightness-110 transition-all">
                     GET STARTED
                   </Link>
                 </motion.div>
