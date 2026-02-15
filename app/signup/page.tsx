@@ -6,6 +6,8 @@ import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { supabase } from '@/lib/supabase'
 
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001/api'
+
 export default function Signup() {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
@@ -33,6 +35,24 @@ export default function Signup() {
       if (error) throw error
 
       if (data.user) {
+        // Sync user to backend database
+        try {
+          await fetch(`${API_BASE_URL}/user/sync`, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+              userId: data.user.id,
+              email: data.user.email,
+              name,
+            }),
+          })
+        } catch (syncError) {
+          console.error('Failed to sync user to backend:', syncError)
+          // Continue anyway - the conversation service will create the user if needed
+        }
+
         router.push('/dashboard')
       }
     } catch (err: any) {
