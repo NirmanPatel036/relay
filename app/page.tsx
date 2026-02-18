@@ -330,7 +330,7 @@ export default function Home() {
           </div>
           <div className="flex space-x-12 font-mono text-[10px] tracking-widest text-muted-foreground">
             <a className="hover:text-primary"
-               href="https://github.com/NirmanPatel036"
+               href="https://github.com/NirmanPatel036/relay"
                target="_blank"
                rel="noopener noreferrer"
               >
