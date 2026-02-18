@@ -100,7 +100,7 @@ export default function DocsPage() {
                   </div>
                   <pre className="text-foreground">
 {`# Clone the repository
-git clone https://github.com/yourusername/relay.git
+git clone https://github.com/NirmanPatel036/relay.git
 cd relay
 
 # Install frontend dependencies
