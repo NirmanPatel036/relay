@@ -268,7 +268,7 @@ graph LR
 
 ```
 customer-care/
-├── clone-relay-chat/          # Next.js Frontend
+├── relay/                     # Next.js Frontend
 │   ├── app/
 │   │   ├── (protected)/       # Auth-protected routes
 │   │   │   ├── chat/          # Multi-agent chat interface
